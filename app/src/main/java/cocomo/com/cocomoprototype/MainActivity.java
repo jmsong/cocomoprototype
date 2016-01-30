@@ -26,11 +26,6 @@ public class MainActivity extends TabActivity {
 	}
 	private void setTabs()
 	{
-		addTab("Home", R.drawable.btn_book, MapsActivity.class);
-		addTab("Deals", R.drawable.btn_deals, DealsActivity.class);
-		addTab("Fake", R.drawable.tab_search, OtherActivity.class);
-		addTab("Order", R.drawable.btn_orders, OrdersActivity.class);
-		addTab("Account", R.drawable.btn_account, AccountActivity.class);
 		addTab("", R.drawable.btn_book, MapsActivity.class);
 		addTab("", R.drawable.btn_deals, DealsActivity.class);
 		addTab("", R.drawable.ico_trans, OtherActivity.class);
