@@ -14,17 +14,18 @@ import butterknife.Bind;
 import butterknife.ButterKnife;
 import cocomo.com.cocomoprototype.R;
 import cocomo.com.cocomoprototype.objects.DealsItem;
+import cocomo.com.cocomoprototype.objects.OrdersItem;
 
 /**
  * Created by tungtm on 1/30/16.
  */
-public class DealsAdapter extends BaseAdapter {
+public class OrdersAdapter extends BaseAdapter {
 
     private final LayoutInflater inflater;
-    private final ArrayList<DealsItem> dataSource;
+    private final ArrayList<OrdersItem> dataSource;
 
-    public DealsAdapter(Context context, ArrayList<DealsItem> dataSource) {
-        this.inflater = (LayoutInflater) context.getSystemService(Context.LAYOUT_INFLATER_SERVICE);
+    public OrdersAdapter(LayoutInflater inflater, ArrayList<OrdersItem> dataSource) {
+        this.inflater = inflater;
         this.dataSource = dataSource;
     }
 
@@ -34,7 +35,7 @@ public class DealsAdapter extends BaseAdapter {
     }
 
     @Override
-    public DealsItem getItem(int position) {
+    public OrdersItem getItem(int position) {
         return dataSource.get(position);
     }
 
@@ -49,27 +50,19 @@ public class DealsAdapter extends BaseAdapter {
         if (view != null) {
             holder = (ViewHolder) view.getTag();
         } else {
-            view = inflater.inflate(R.layout.list_item_deals, parent, false);
+            view = inflater.inflate(R.layout.list_item_orders, parent, false);
             holder = new ViewHolder(view);
             view.setTag(holder);
         }
-        DealsItem item = getItem(position);
+        OrdersItem item = getItem(position);
 
         holder.spaImage.setImageResource(item.getSpaImage());
-        holder.spaName.setText(item.getSpaName());
-        holder.spaDate.setText(item.getSpaDate());
-        holder.spaTitle.setText(item.getSpaTitle());
 
         return view;
     }
 
     static class ViewHolder {
-        @Bind(R.id.spa_image)
-        ImageView spaImage;
-        @Bind(R.id.spa_name)
-        TextView spaName;
-        @Bind(R.id.spa_date) TextView spaDate;
-        @Bind(R.id.spa_title) TextView spaTitle;
+        @Bind(R.id.spa_image) ImageView spaImage;
 
         public ViewHolder(View view) {
             ButterKnife.bind(this, view);

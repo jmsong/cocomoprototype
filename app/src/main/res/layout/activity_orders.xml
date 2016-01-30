@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+	xmlns:app="http://schemas.android.com/apk/res-auto"
+	android:orientation="vertical"
+	android:layout_height="match_parent"
+	android:layout_width="match_parent">
+	<RelativeLayout
+		android:layout_width="match_parent"
+		android:layout_height="wrap_content">
+		<ImageView
+			android:src="@drawable/orders_image"
+			android:layout_width="wrap_content"
+			android:layout_height="wrap_content" />
+
+		<LinearLayout
+			android:layout_centerInParent="true"
+			android:gravity="center"
+			android:orientation="vertical"
+			android:layout_width="wrap_content"
+			android:layout_height="wrap_content">
+			<TextView
+				android:layout_centerHorizontal="true"
+				android:layout_width="wrap_content"
+				android:layout_height="wrap_content"
+				android:textColor="#ffffff"
+				android:text="NEXT APPOINTMENT"/>
+			<TextView
+				android:layout_marginTop="5dp"
+				android:layout_marginBottom="5dp"
+				android:text="Foot massage: 30 mins"
+				android:textSize="22sp"
+				android:textStyle="bold"
+				android:textColor="#ffffff"
+				android:layout_width="wrap_content"
+				android:layout_height="wrap_content" />
+			<TextView
+				android:padding="5dp"
+				android:background="#007c8b"
+				android:layout_centerHorizontal="true"
+				android:layout_width="wrap_content"
+				android:layout_height="wrap_content"
+				android:textColor="#ffffff"
+				android:text="THE PENINSULA - IN 3 DAYS"/>
+		</LinearLayout>
+
+	</RelativeLayout>
+	<com.astuetz.PagerSlidingTabStrip
+		android:background="#f5f1e9"
+		android:id="@+id/tabs"
+		app:pstsShouldExpand="true"
+		app:pstsTextAllCaps="true"
+		android:layout_width="match_parent"
+		android:textColor="#7f7f7f"
+		app:pstsDividerColor="#f5f1e9"
+		app:pstsIndicatorColor="#007c8b"
+		app:pstsUnderlineColor="#007c8b"
+		android:layout_height="48dp" />
+	<android.support.v4.view.ViewPager
+		android:id="@+id/viewpager"
+		android:layout_width="match_parent"
+		android:layout_height="wrap_content"
+		android:background="@android:color/white" />
+</LinearLayout>

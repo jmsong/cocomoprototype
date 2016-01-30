@@ -66,6 +66,7 @@ public class DealsActivity extends Activity {
 
         // Spinner Services
         List<String> services = new ArrayList<>();
+        services.add("All services");
         services.add("Foot Massage");
         services.add("Body Massage");
 
@@ -80,6 +81,7 @@ public class DealsActivity extends Activity {
 
         // Spinner Areas
         List<String> areas = new ArrayList<>();
+        areas.add("All areas");
         areas.add("Area 1");
         areas.add("Area 2");
 

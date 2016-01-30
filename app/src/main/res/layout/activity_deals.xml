@@ -10,7 +10,8 @@
 	<LinearLayout
 		android:orientation="horizontal"
 		android:layout_width="match_parent"
-		android:layout_height="wrap_content">
+		android:layout_height="wrap_content"
+		android:background="#f5f1e9">
 		<Spinner
 			android:layout_weight="1"
 			android:id="@+id/spinner_services"
@@ -23,6 +24,7 @@
 			android:layout_height="wrap_content"></Spinner>
 	</LinearLayout>
 	<ListView
+		android:background="#faf8f4"
 		android:divider="@null"
 		android:id="@+id/list_deals"
 		android:layout_width="match_parent"
