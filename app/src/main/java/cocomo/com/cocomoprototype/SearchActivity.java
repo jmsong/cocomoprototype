@@ -72,8 +72,8 @@ public class SearchActivity extends Activity {
                         // your action here
                         edtSearch.setText("");
                         return true;
-                    } else if (event.getRawX() >= (edtSearch.getLeft() - edtSearch.getCompoundDrawables()[DRAWABLE_LEFT].getBounds().width())) {
-//                        finish();
+                    } else if(event.getRawX() <= (edtSearch.getCompoundDrawables()[DRAWABLE_LEFT].getBounds().width())){
+                        finish();
                     }
                 }
                 return false;
