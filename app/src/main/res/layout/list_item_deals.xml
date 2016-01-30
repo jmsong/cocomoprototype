@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:clipChildren="false">
+    <RelativeLayout
+        android:layout_marginTop="10dp"
+        android:layout_centerHorizontal="true"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:background="#faf8f4">
+        <ImageView
+            android:layout_centerHorizontal="true"
+            android:id="@+id/spa_image"
+            android:src="@drawable/deals_0"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" />
+        <TextView
+            android:id="@+id/spa_name"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Amandhara Spa"
+            android:textSize="15sp"
+            android:layout_marginLeft="10dp"
+            android:layout_marginBottom="10dp"
+            android:layout_alignLeft="@+id/spa_image"
+            android:layout_alignBottom="@+id/spa_image"
+            android:textColor="#ffffffff"/>
+
+        <TextView
+            android:id="@+id/spa_date"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="TILL 31 MAR 2016"
+            android:textSize="15sp"
+            android:layout_alignBaseline="@id/spa_name"
+            android:layout_alignRight="@+id/spa_image"
+            android:layout_alignBottom="@+id/spa_image"
+            android:layout_marginRight="-5dp"
+            android:padding="5dp"
+            android:background="#f7730b"
+            android:textColor="#ffffffff"/>
+
+        <TextView
+            android:id="@+id/spa_title"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Amandhara Spa"
+            android:layout_alignLeft="@id/spa_image"
+            android:layout_alignRight="@id/spa_image"
+            android:padding="10dp"
+            android:layout_below="@+id/spa_image"
+            android:textSize="15sp"
+            android:textColor="#212121"/>
+    </RelativeLayout>
+
+</RelativeLayout>
