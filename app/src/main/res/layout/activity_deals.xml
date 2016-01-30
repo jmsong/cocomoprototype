@@ -2,6 +2,11 @@
 <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
 	android:orientation="vertical"
 	android:layout_height="match_parent" android:layout_width="match_parent">
+	<include
+		android:id="@+id/header_bar"
+		layout="@layout/actionbar_layout_orange"
+		android:layout_width="match_parent"
+		android:layout_height="@dimen/height_55" />
 	<LinearLayout
 		android:orientation="horizontal"
 		android:layout_width="match_parent"
