@@ -26,17 +26,17 @@ public class MainActivity extends TabActivity {
 	}
 	private void setTabs()
 	{
-		addTab("Home", R.drawable.tab_home, MapsActivity.class);
-		addTab("Deals", R.drawable.tab_search, DealsActivity.class);
+		addTab("Home", R.drawable.btn_book, MapsActivity.class);
+		addTab("Deals", R.drawable.btn_deals, DealsActivity.class);
 		addTab("Fake", R.drawable.tab_search, OtherActivity.class);
-		addTab("Home", R.drawable.tab_home, OrdersActivity.class);
-		addTab("Search", R.drawable.tab_search, OtherActivity.class);
+		addTab("Order", R.drawable.btn_orders, OrdersActivity.class);
+		addTab("Account", R.drawable.btn_account, OtherActivity.class);
 	}
 	private void addTab(String labelId, int drawableId, Class<?> c)
 	{
 		Intent intent = new Intent(this, c);
 		TabHost.TabSpec spec = tabHost.newTabSpec("tab" + labelId);
-		
+		tabHost.getTabWidget().setDividerDrawable(null);
 		View tabIndicator = LayoutInflater.from(this).inflate(R.layout.tab_indicator, getTabWidget(), false);
 		TextView title = (TextView) tabIndicator.findViewById(R.id.title);
 		title.setText(labelId);
