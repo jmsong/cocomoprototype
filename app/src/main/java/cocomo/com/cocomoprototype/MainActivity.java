@@ -28,7 +28,7 @@ public class MainActivity extends TabActivity {
 	private void setTabs()
 	{
 		addTab("Home", R.drawable.tab_home, MapsActivity.class);
-		addTab("Search", R.drawable.tab_search, OtherActivity.class);
+		addTab("Deals", R.drawable.tab_search, DealsActivity.class);
 		addTab("Fake", R.drawable.tab_search, OtherActivity.class);
 		addTab("Home", R.drawable.tab_home, OtherActivity.class);
 		addTab("Search", R.drawable.tab_search, OtherActivity.class);
