@@ -1,13 +1,81 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
-	
-	
+
+	<color name="actionbar_color">#85dcc7</color>
+
 	
 	<color name="tabMedium">#2B2B2B</color>
 	<color name="tabDark">#000000</color>
 	<color name="tabTransparent">#10ffffff</color>
-	
-	
+
+	<color name="basic_white">#FFFFFF</color>
+	<color name="light_white">#FAF7F7</color>
+	<color name="light_whiter">#99FFFFFF</color>
+	<color name="basic_gray">#F5F9FA</color>
+	<color name="fancy_blue">#5AD3C0</color>
+	<color name="divider_gray">#D7E3EB</color>
+	<color name="black_transparent">#EE1C1C1C</color>
+
+
+	<color name="lighter_gray">#E9F0F5</color>
+	<color name="light_gray">#E0EAF0</color>
+
+	<color name="light_gray_ios">#D0DEE8</color>
+	<color name="light_green">#F5F9FA</color>
+	<color name="dark_green">#1A4B72</color>
+	<color name="dark_green_alpha">#DE1A4B72</color>
+
+	<color name="green">#5FD4C2</color>
+	<color name="lighter_green">#22D6C9</color>
+	<color name="dark_blue">#759AB8</color>
+	<color name="purple">#9784DB</color>
+	<color name="blue_black">#221E4F75</color>
+	<color name="dark_white">#D0DEE8</color>
+	<color name="black_blue">#0B4069</color>
+	<color name="light_white_green">#F7FAFC</color>
+	<color name="dark_white_green">#DAE5ED</color>
+	<color name="dark_black_blue">#0C416A</color>
+	<color name="red">#FF3B30</color>
+	<color name="red_dark">#FF3B30</color>
+	<color name="red_50">#D2465E</color>
+	<color name="dark_gray">#E7EEF3</color>
+	<color name="darker_gray">#D0DEE8</color>
+	<color name="darker_blue">#1F4F74</color>
+	<color name="gray">#BDBDBD</color>
+	<color name="blue">#36CDF3</color>
+	<color name="red_border">#FF606F</color>
+	<color name="darker_white">#D8DDDF</color>
+	<color name="logout_button_color">#28c0ef</color>
+	<color name="holo_blue_dark">#5AD3C0</color>
+	<color name="transparent_color">#FFFFFFFF</color>
+	<color name="separator_color">#AAAAAA</color>
+	<color name="date_color">#5a728c</color>
+
+	<!--zxing-->
+	<color name="contents_text">#ff000000</color>
+	<color name="encode_view">#ffffffff</color>
+	<color name="possible_result_points">#c0ffbd21</color>
+	<!-- Android standard ICS color -->
+	<color name="result_minor_text">#ffc0c0c0</color>
+	<color name="result_points">#c099cc00</color>
+	<!-- Android standard ICS color -->
+	<color name="result_text">#ffffffff</color>
+	<color name="result_view">#b0000000</color>
+	<color name="status_text">#ffffffff</color>
+	<color name="transparent">#00000000</color>
+	<color name="viewfinder_laser">#ffcc0000</color>
+	<!-- Android standard ICS color -->
+	<color name="viewfinder_mask">#60000000</color>
+
+	<!--food log-->
+	<color name="green_dark">#59CBB2</color>
+	<color name="violet_dark">#886AD7</color>
+	<color name="blue_dark">#41B2F2</color>
+	<color name="white_goal_range">#F6F7F8</color>
+	<color name="food_log_set_goal_bg">#E9F0F5</color>
+	<color name="violet_light">#AFA4E2</color>
+	<color name="green_light">#84DCCF</color>
+	<color name="blue_light">#61D0F2</color>
 	
 	
 </resources>
