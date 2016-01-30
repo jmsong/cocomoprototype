@@ -30,7 +30,7 @@ public class MainActivity extends TabActivity {
 		addTab("Deals", R.drawable.btn_deals, DealsActivity.class);
 		addTab("Fake", R.drawable.tab_search, OtherActivity.class);
 		addTab("Order", R.drawable.btn_orders, OrdersActivity.class);
-		addTab("Account", R.drawable.btn_account, OtherActivity.class);
+		addTab("Account", R.drawable.btn_account, AccountActivity.class);
 	}
 	private void addTab(String labelId, int drawableId, Class<?> c)
 	{
