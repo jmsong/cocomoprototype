@@ -1,0 +1,122 @@
+<resources>
+    <!-- Default screen margins, per the Android Design guidelines. -->
+    <dimen name="activity_horizontal_margin">16dp</dimen>
+    <dimen name="activity_vertical_margin">16dp</dimen>
+
+    <!-- MARGIN/PADDING -->
+    <dimen name="space_half_one">0.5dp</dimen>
+    <dimen name="space_2">2dp</dimen>
+    <dimen name="space_4">4dp</dimen>
+    <dimen name="space_5">5dp</dimen>
+    <dimen name="space_6">6dp</dimen>
+    <dimen name="space_8">8dp</dimen>
+    <dimen name="space_10">10dp</dimen>
+    <dimen name="space_9">9dp</dimen>
+    <dimen name="space_11">11dp</dimen>
+    <dimen name="space_12">12dp</dimen>
+    <dimen name="space_13">13dp</dimen>
+    <dimen name="space_14">14dp</dimen>
+    <dimen name="space_16">16dp</dimen>
+    <dimen name="space_18">18dp</dimen>
+    <dimen name="space_20">20dp</dimen>
+    <dimen name="space_22">22dp</dimen>
+    <dimen name="space_24">24dp</dimen>
+    <dimen name="space_28">28dp</dimen>
+    <dimen name="space_32">32dp</dimen>
+    <dimen name="space_36">36dp</dimen>
+    <dimen name="space_40">40dp</dimen>
+    <dimen name="space_45">45dp</dimen>
+    <dimen name="space_48">48dp</dimen>
+    <dimen name="space_56">56dp</dimen>
+    <dimen name="space_60">60dp</dimen>
+    <dimen name="space_70">70dp</dimen>
+    <dimen name="space_80">80dp</dimen>
+    <dimen name="space_200">200dp</dimen>
+    <dimen name="standard_padding">8dip</dimen>
+    <!-- HEIGHT -->
+    <dimen name="height_half">0.5dp</dimen>
+    <dimen name="height_1">1dp</dimen>
+    <dimen name="height_2">2dp</dimen>
+    <dimen name="height_22">22dp</dimen>
+    <dimen name="height_32">32dp</dimen>
+    <dimen name="height_36">36dp</dimen>
+    <dimen name="height_40">40dp</dimen>
+    <dimen name="height_42">42dp</dimen>
+    <dimen name="height_43">43dp</dimen>
+    <dimen name="height_44">44dp</dimen>
+    <dimen name="height_45">45dp</dimen>
+    <dimen name="height_48">48dp</dimen>
+    <dimen name="height_50">50dp</dimen>
+    <dimen name="height_52">52dp</dimen>
+    <dimen name="height_55">55dp</dimen>
+    <dimen name="height_60">60dp</dimen>
+    <dimen name="height_64">64dp</dimen>
+    <dimen name="height_66">66dp</dimen>
+    <dimen name="height_70">70dp</dimen>
+    <dimen name="height_80">80dp</dimen>
+    <dimen name="height_95">95dp</dimen>
+    <dimen name="height_100">100dp</dimen>
+    <dimen name="height_105">105dp</dimen>
+    <dimen name="height_120">120dp</dimen>
+    <dimen name="height_125">125dp</dimen>
+    <dimen name="height_150">150dp</dimen>
+    <dimen name="height_160">160dp</dimen>
+    <dimen name="height_170">170dp</dimen>
+    <dimen name="height_180">180dp</dimen>
+    <dimen name="height_200">200dp</dimen>
+    <dimen name="height_220">220dp</dimen>
+    <dimen name="height_230">230dp</dimen>
+    <dimen name="height_250">250dp</dimen>
+    <dimen name="height_300">300dp</dimen>
+    <dimen name="height_350">350dp</dimen>
+    <dimen name="height_400">400dp</dimen>
+    <dimen name="height_500">500dp</dimen>
+    <dimen name="height_600">600dp</dimen>
+    <!-- TEXT -->
+    <dimen name="text_10">10sp</dimen>
+    <dimen name="text_11">11sp</dimen>
+    <dimen name="text_12">12sp</dimen>
+    <dimen name="text_13">13sp</dimen>
+    <!-- Leading 20/24pt -->
+    <dimen name="text_14">14sp</dimen>
+    <dimen name="text_15">15sp</dimen>
+    <!-- Leading 24/28pt -->
+    <dimen name="text_16">16sp</dimen>
+    <dimen name="text_17">17sp</dimen>
+    <dimen name="text_18">18sp</dimen>
+    <dimen name="text_20">20sp</dimen>
+    <dimen name="text_23">23sp</dimen>
+    <dimen name="text_24">24sp</dimen>
+    <!-- Leading 32pt -->
+    <dimen name="text_34">34sp</dimen>
+    <!-- Leading 40pt -->
+    <dimen name="text_45">45sp</dimen>
+    <!-- Leading 48pt -->
+
+    <!-- GRAPH VIEW -->
+    <dimen name="graph_view_height">150dp</dimen>
+    <dimen name="graph_view_margin_left">10dp</dimen>
+    <dimen name="graph_view_margin_right">6dp</dimen>
+
+    <!-- FULL GRAPH VIEW -->
+    <dimen name="tabs_text_padding">10dp</dimen>
+    <dimen name="tabs_text_margin">10dp</dimen>
+    <dimen name="graph_introduction_layout_margin">20dp</dimen>
+    <dimen name="graph_introduction_text_size">13sp</dimen>
+    <dimen name="graph_introduction_text_image_padding">15dp</dimen>
+
+
+    <dimen name="interactive_width">165dp</dimen>
+    <dimen name="interactive_height">90dp</dimen>
+    <dimen name="interactive_height_step">94dp</dimen>
+    <dimen name="interactive_height_food_log">130dp</dimen>
+    <dimen name="interactive_height_hr">60dp</dimen>
+
+    <dimen name="user_setting_header_item_textsize">24sp</dimen>
+    <dimen name="user_setting_item_textsize">20sp</dimen>
+
+    <!-- Action Bar auto-hide-on-scroll behavior parameters -->
+    <dimen name="action_bar_auto_hide_min_y">152dp</dimen>
+    <dimen name="action_bar_auto_hide_sensivity">48dp</dimen>
+
+</resources>
